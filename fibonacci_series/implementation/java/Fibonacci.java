@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 import java.math.BigInteger;
 
 public class Fibonacci{
@@ -6,6 +6,7 @@ public class Fibonacci{
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the postion of fibonnaci number (n) to calculate : ");
         int n = input.nextInt();
+        
         if(n < 0){
             System.out.println("n can't be less than 0");
         }else if(n <= 2){
@@ -25,5 +26,6 @@ public class Fibonacci{
             }
             System.out.println(fibonnaciNumber);
         }
+        input.close();
     }
 }

@@ -25,6 +25,8 @@ int main(){
             }
             cout<<fibonnaciNumber;
         }
+        
+    return 0;
 }
 
 string addStrings(string large, string small){
